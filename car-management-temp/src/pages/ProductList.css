@@ -7,7 +7,7 @@
     flex-direction: column;
     height: 100%; /* Take full height */
     box-sizing: border-box;
-    background-image: url('../assets/Car.jpg');
+    background-image: url('./assets/Car.jpg');
     background-size: cover; /* Cover the whole header */
     background-position: center;
     background-blend-mode: multiply;
