@@ -14,12 +14,12 @@
     backdrop-filter: blur(10px);
     background-repeat: no-repeat;
     position: fixed;
-    top: 160px;
+    top: 70px;
   }
   
   /* Title */
   .product-list h2 {
-    font-size: 7rem;
+    font-size: 2rem;
     color: #ffffff;
     margin: 0; /* Remove any default margins */
     padding: 0; /* Ensure no padding */
@@ -37,7 +37,7 @@
   .search-bar input {
     flex: 1; /* Expand input */
     padding: 10px;
-    font-size: 6rem;
+    font-size: 2rem;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
@@ -47,7 +47,7 @@
     background: #4a3aff;
     color: white;
     border: none;
-    font-size: 5rem;
+    font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
   }

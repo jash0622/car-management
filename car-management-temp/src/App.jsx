@@ -47,12 +47,13 @@ const App = () => {
                         />
                         <Route
                             path="/add"
-                            element={isAuthenticated() ? <AddEditProduct /> : <Navigate to="/login" />}
+                            element={<AddEditProduct />}
                         />
                         <Route
                             path="/products/:id"
-                            element={isAuthenticated() ? <ProductDetail /> : <Navigate to="/login" />}
+                            element={<ProductDetail />}
                         />
+                        {/* Catch-all route redirects to "Your Cars" */}
                         <Route path="*" element={<Navigate to="/" />} />
                     </Routes>
                 </div>
