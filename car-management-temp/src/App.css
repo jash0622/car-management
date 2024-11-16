@@ -25,26 +25,26 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%; /* Full height */
-position: absolute;
+  position: absolute;
 }
 
 /* Header */
 .header {
   background: #4a3aff; /* Your header background color */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-size: 1.5rem;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0; /* Ensure no margin above the header */
-    position: fixed; /* Fix the header at the top */
-    top: 0;
-    left: 0;
-    z-index: 10; /* Ensure it stays above other elements */
-    margin-bottom: 0%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 1.5rem;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0; /* Ensure no margin above the header */
+  position: fixed; /* Fix the header at the top */
+  top: 0;
+  left: 0;
+  z-index: 10; /* Ensure it stays above other elements */
+  margin-bottom: 0%;
 }
 
 /* Header Logo and Buttons */
